@@ -10,9 +10,9 @@ a:hover{background-color: rgba(255, 255, 0, 0.336);padding:1rem;}
 .contenitore-header img{height: 30px;margin:auto;justify-content: center;}
 
 /* MAIN */
-.contenitore{width: 1000px;margin:30px auto 0;flex-wrap: wrap;}
-.contenitore-cards{width: 33%;}
-.primo-item{height: 100%;position: relative;}
+.contenitore{width: 1000px;margin:30px auto 0;flex-wrap: wrap;gap:10px;}
+.contenitore-cards{width: 32.6%;}
+.item{height: 100%;position: relative;}
 .img-size img{width: 100%;}
 .colore-rosso{color: red;padding-right: 4px;}
 .prezzo-vecchio{text-decoration:line-through;}
@@ -21,3 +21,4 @@ a:hover{background-color: rgba(255, 255, 0, 0.336);padding:1rem;}
 .flex-space{gap: 2px;position: absolute;bottom: 0;leftt: 0;margin-bottom: 85px;}
 .heart{position: absolute;top:0;right:0;margin-top:10px;}
 .heart i{height:30px;width:30px;background-color: white;padding:7px}
+.heart:hover{color:red}
