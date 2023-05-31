@@ -17,7 +17,7 @@ a:hover{background-color: rgba(255, 255, 0, 0.336);padding:1rem;}
 .contenitore{width: 1000px;margin:30px auto 0;flex-wrap: wrap;gap:10px;}
 .contenitore-cards{width: 32.6%;margin-bottom:40px;}
 .item{height: 100%;position: relative;}
-.img-size img{width: 100%;}
+.img-1 img{width: 100%;}
 .colore-rosso{color: red;padding-right: 4px;}
 .prezzo-vecchio{text-decoration:line-through;}
 .sconto{width: 40px;background-color: red;font-size: 10px;color: white;text-align: center;padding: 3px;}
@@ -42,3 +42,8 @@ a:hover{background-color: rgba(255, 255, 0, 0.336);padding:1rem;}
 header{position: fixed;top:0;z-index:3;width: 100%;}
 body{margin-top:80px;}
 footer{position: relative;bottom:0;}
+
+/* CAMBIO IMMAGINE HOVER */
+.prova{display:none; width: 100%;}
+.img-1 img:hover{display: none;}
+.prova:hover{display: block;}
