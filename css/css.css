@@ -1,0 +1,12 @@
+*{padding: 0; margin: 0; box-sizing: border-box;}
+.flex{display: flex;}
+
+/* HEADER */
+.orange-box{background-color: rgb(255, 94, 0);min-width:100%;}
+.contenitore-header{justify-content: space-between;width:1000px;margin:0 auto;}
+.contenitore-header div{width:33%}
+.header-sex li{color: white; list-style: none;padding: 1rem;}
+a:hover{background-color: rgba(255, 255, 0, 0.336);padding:1rem;}
+.contenitore-header img{height: 30px;margin:auto;justify-content: center;}
+
+
