@@ -45,5 +45,6 @@ footer{position: relative;bottom:0;}
 
 /* CAMBIO IMMAGINE HOVER */
 .prova{display:none; width: 100%;}
-.img-1 img:hover{display: none;}
-.prova:hover{display: block;}
+.img-1:hover .foto1{display: none;}
+.img-1:hover .foto2{display: block;}
+.foto2{display: none;}
